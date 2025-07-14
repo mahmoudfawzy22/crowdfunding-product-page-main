@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frontend Mentor | Crowdfunding product page</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+
+  <body>
+    <!-- Header with background -->
+    <header class="header pt-3 position-relative">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light text-white">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="images/logo.svg" alt="Logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Discover</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Get Started</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Mastercraft Section -->
+    <section class="mastercraft-content text-center">
+      <img
+        src="images/logo-mastercraft.svg"
+        id="mastercraft-logo"
+        alt="Mastercraft Logo"
+      />
+      <div class="container">
+        <h3>Mastercraft Bamboo Monitor Riser</h3>
+        <p>
+          A beautiful & handcrafted monitor stand to reduce neck and eye strain.
+        </p>
+        <div class="mastercraft-box">
+          <button class="main-btn rounded-pill btn">Back this project</button>
+          <div class="bookmark">
+            <img src="images/icon-bookmark.svg" alt="Bookmark" />
+            <p>Bookmark</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Backers Section -->
+    <section class="backers text-center text-lg-start position-relative">
+      <div class="row">
+        <div class="backer-box col-lg-4 col-md-6">
+          <h3>$89,914</h3>
+          <p>of $100,000 backed</p>
+        </div>
+        <div class="backer-box col-lg-4 col-md-6">
+          <h3>5,007</h3>
+          <p>total backers</p>
+        </div>
+        <div class="backer-box col-lg-4 col-md-6">
+          <h3>56</h3>
+          <p>days left</p>
+        </div>
+      </div>
+      <div class="percent mt-3">
+        <span></span>
+      </div>
+    </section>
+    <section class="about text-start">
+      <h4 class="mb-5 fw-bold">About this project</h4>
+      <p class="text-black-50">
+        The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform
+        that elevates your screen to a more comfortable viewing height. Placing
+        your monitor at eye level has the potential to improve your posture and
+        make you more comfortable while at work, helping you stay focused on the
+        task at hand.
+      </p>
+      <p class="text-black-50 mt-5 mb-4">
+        Featuring artisan craftsmanship, the simplicity of design creates extra
+        desk space below your computer to allow notepads, pens, and USB sticks
+        to be stored under the stand.
+      </p>
+      <div class="about-box mb-4 p-4">
+        <div
+          class="heading d-flex justify-content-lg-between justify-content-sm-between justify-content-sm-start flex-lg-row flex-md-row flex-column"
+        >
+          <h5 class="fw-bold">Bamboo Stand</h5>
+          <p>Pledge $25 or more</p>
+        </div>
+        <p class="text-black-50">
+          You get an ergonomic stand made of natural bamboo. You've helped us
+          launch our promotional campaign, and you’ll be added to a special
+          Backer member list.
+        </p>
+        <div
+          class="button d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3"
+        >
+          <p class="price m-0 fs-3 fw-bold">
+            101 <span class="fs-6">left</span>
+          </p>
+          <button class="select-btn btn main-btn rounded-pill">Select Reward</button>
+        </div>
+      </div>
+
+      <div class="about-box mb-4 p-4">
+        <div
+          class="heading d-flex justify-content-lg-between justify-content-sm-between justify-content-sm-start flex-lg-row flex-md-row flex-column"
+        >
+          <h5 class="fw-bold">Black Edition Stand</h5>
+          <p>Pledge $75 or more</p>
+        </div>
+        <p class="text-black-50">
+          You get a Black Special Edition computer stand and a personal thank
+          you. You’ll be added to our Backer member list. Shipping is included.
+        </p>
+        <div
+          class="button d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3"
+        >
+          <p class="price m-0 fs-3 fw-bold">
+            64 <span class="fs-6">left</span>
+          </p>
+          <button class="select-btn btn main-btn rounded-pill">Select Reward</button>
+        </div>
+      </div>
+
+      <div class="about-box mb-4 p-4 notactive">
+        <div
+          class="heading d-flex justify-content-lg-between justify-content-sm-between justify-content-sm-start flex-lg-row flex-md-row flex-column"
+        >
+          <h5 class="fw-bold">Mahogany Special Edition</h5>
+          <p>Pledge $200 or more</p>
+        </div>
+        <p class="text-black-50">
+          You get two Special Edition Mahogany stands, a Backer T-Shirt, and a
+          personal thank you. You’ll be added to our Backer member list.
+          Shipping is included.
+        </p>
+        <div
+          class="button d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3"
+        >
+          <p class="price m-0 fs-3 fw-bold">0 <span class="fs-6">left</span></p>
+          <button class="btn main-btn rounded-pill">Out of stock</button>
+        </div>
+      </div>
+    </section>
+    <div class="landding">
+      <div class="alert-massege">
+        <img src="images/icon-check.svg" alt="" class="my-5" />
+        <h4 class="fw-bold">Thanks for your support!</h4>
+        <p class="text-black-50">
+          Your pledge brings us one step closer to sharing Mastercraft Bamboo
+          Monitor Riser worldWide. You will get an email once our campaign is
+          completed
+        </p>
+        <button class="landding-btn main-btn rounded-pill btn mt-3 mb-5">Got it!</button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="support hidden">
+      <div class="support-heading">
+        <h3>Back this project</h3>
+        <p class="text-black-50">
+          Want to support us in bringing Mastercraft Bamboo Monitor Riser out in
+          the world
+        </p>
+      </div>
+      <div class="support-box mb-3">
+        <div class="row mb-4">
+          <div class="col-lg-7 col-md-12 d-flex align-items-center">
+            <span class="circle me-3"></span>
+            <div
+              class="bamboo d-flex flex-row flex-wrap justify-content-between"
+            >
+              <h4 class="my-0 me-3">Pledge with no reward</h4>
+            </div>
+          </div>
+          <div class="col-lg-5 text-end"></div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-4">
+              You get an ergonomic stand made of natural bamboo. You’ve helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="pledge hidden align-items-center">
+            <p class="m-0 text-black-50 text-start text-sm-center">
+              enter your pledge
+            </p>
+            <form class="pledge-btn">
+              <input type="text" />
+              <button type="submit" class="main-btn btn rounded-pill">continue</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="support-box mb-3">
+        <div class="row mb-4">
+          <div class="col-lg-7 col-md-12 d-flex align-items-center">
+            <div>
+              <span class="circle me-3"></span>
+            </div>
+            <div
+              class="bamboo d-flex flex-row flex-wrap justify-content-between"
+            >
+              <h4 class="my-0 me-3">Bamboo Stand</h4>
+              <p class="text-green-50 m-0">Pledge $25 or more</p>
+            </div>
+          </div>
+          <div class="col-lg-5 text-end">
+            <p class="mb-0 left">101 <span>left</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-4">
+              You get an ergonomic stand made of natural bamboo. You’ve helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <p class="mb-0 left-sm hidden mt-4 mb-4">101 <span>left</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="pledge hidden align-items-center">
+            <p class="m-0 text-black-50 text-start text-sm-center">
+              enter your pledge
+            </p>
+            <form class="pledge-btn">
+              <input type="text" />
+              <button type="submit" class="main-btn btn rounded-pill">continue</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="support-box mb-3">
+        <div class="row mb-4">
+          <div class="col-lg-7 col-md-12 d-flex align-items-center">
+            <div>
+              <span class="circle me-3"></span>
+            </div>
+            <div
+              class="bamboo d-flex flex-row flex-wrap justify-content-between"
+            >
+              <h4 class="my-0 me-3">Bamboo Stand</h4>
+              <p class="text-green-50 m-0">Pledge $25 or more</p>
+            </div>
+          </div>
+          <div class="col-lg-5 text-end">
+            <p class="mb-0 left">101 <span>left</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-4">
+              You get an ergonomic stand made of natural bamboo. You’ve helped
+              us launch our promotional campaign, and you’ll be added to a
+              special Backer member list.
+            </p>
+            <p class="mb-0 left-sm hidden mt-4 mb-4">101 <span>left</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="pledge hidden align-items-center">
+            <p class="m-0 text-black-50 text-start text-sm-center">
+              enter your pledge
+            </p>
+            <form class="pledge-btn">
+              <input type="text" />
+              <button type="submit" class="main-btn btn rounded-pill">continue</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="support-box mt-3 notactive opacity-25">
+        <div class="row mb-4">
+          <div class="col-lg-7 col-md-12 d-flex align-items-center">
+            <div>
+              <span class="circle me-3"></span>
+            </div>
+            <div
+              class="bamboo d-flex flex-row flex-wrap justify-content-between"
+            >
+              <h4 class="my-0 me-3">Black Edition Stand</h4>
+              <p class="text-green-50 m-0">Pledge $75 or more</p>
+            </div>
+          </div>
+          <div class="col-lg-5 text-end">
+            <p class="mb-0 left">0 <span>left</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-4">
+              You get a Black Special Edition computer stand and a personal
+              thank you. You’ll be added to our Backer member list. Shipping is
+              included.
+            </p>
+            <p class="mb-0 left-sm hidden mt-4 mb-4">0 <span>left</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
